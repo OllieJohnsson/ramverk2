@@ -66,15 +66,6 @@ app.delete("/user", (req, res) => {
     res.status(204).send();
 });
 
-app.get("/", (req, res) => {
-    const data = {
-        data: {
-            msg: "Hello World"
-        }
-    };
-
-    res.json(data);
-});
 
 
 
